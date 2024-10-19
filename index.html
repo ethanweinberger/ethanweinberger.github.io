@@ -38,6 +38,7 @@
   $(function(){
     $("#journalPublications").load("publications/journal.html");
     $("#conferencePublications").load("publications/conference.html");
+    $("#preprintPublications").load("publications/preprints.html");
   });
   </script>
   <style>
@@ -141,8 +142,12 @@
     <div class="row top-spacing">
       <div class="mx-auto" id="Description">
         <p>
-            I'm a final-year Ph.D student at the University of Washington, where I'm
+            I am a final-year Ph.D student at the University of Washington, where I'm
             advised by <a href="https://aims.cs.washington.edu/su-in-lee">Su-In Lee</a>.
+
+            My research interests lie in probabilistic modeling of biological data,
+            with a particular focus on single-cell omics. My Ph.D work was supported partially
+            by an NSF graduate research fellowship.
         </p>
             
         <p>
@@ -156,6 +161,10 @@
         </p>
 
         <hr>
+        <h2 class="section-name">Working papers/preprints</h2>
+        <div id="preprintPublications"></div>
+
+
         <h2 class="section-name">Journal publications</h2>
 
         <div id="journalPublications"></div>
