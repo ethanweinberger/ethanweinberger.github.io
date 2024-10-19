@@ -1,1 +1,0 @@
-# ethanweinberger.github.io
